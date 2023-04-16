@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/aws")
-public class RestControllerEx { //fff
+public class RestControllerEx {
 
 	@GetMapping("/test")
 	public ResponseEntity<String> test() {
